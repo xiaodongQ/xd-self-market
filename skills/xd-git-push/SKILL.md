@@ -33,17 +33,18 @@ git status
 
 如果本地落后于远端，先执行 `git pull` 同步，再继续后续流程。
 
-### 4. 确认提交文件
+### 4. 确认提交文件及 commit message
 
-展示 `git status` 结果，列出待提交文件，问用户确认：
-> "待提交文件如下，是否确认？需要增减吗？"
+展示 `git status` 结果和 `git diff`，列出待提交文件，并根据 diff 内容提炼 commit message，一并展示给用户确认：
 
-### 5. 提炼 commit message
-
-根据 `git diff` 内容，提炼出简洁的 commit message（中文，1-2 行）：
-> "我提炼的 commit message 是：xxx，确认吗？"
-
-### 6. 确认后执行提交
+> **待提交文件**：
+> - `file1` (状态)
+> - `file2` (状态)
+>
+> **Commit message**：
+> `xxx`
+>
+> 确认吗？需要增减吗？
 
 ```sh
 git add <files>
