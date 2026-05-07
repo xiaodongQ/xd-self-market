@@ -6,18 +6,12 @@
     {
       "name": "xd-blog-style",
       "description": "基于 xiaodongq 博客风格写作的 skill",
-      "source": {
-        "source": "directory",
-        "path": "skills/xd-blog-style"
-      }
+      "source": "./skills/xd-blog-style"
     },
     {
       "name": "xd-git-push",
       "description": "提交代码到远程仓库前与用户二次确认",
-      "source": {
-        "source": "directory",
-        "path": "skills/xd-git-push"
-      }
+      "source": "./skills/xd-git-push"
     }
   ]
 }
