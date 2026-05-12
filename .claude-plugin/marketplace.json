@@ -12,6 +12,11 @@
       "name": "xd-git-push",
       "description": "提交代码到远程仓库前与用户二次确认",
       "source": "./skills/xd-git-push"
+    },
+    {
+      "name": "prompt-optimizer",
+      "description": "通用提示词优化器，生成 A/B/C/D 四种策略变体",
+      "source": "./skills/prompt-optimizer"
     }
   ]
 }
