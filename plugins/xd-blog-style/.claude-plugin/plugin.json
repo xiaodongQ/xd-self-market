@@ -1,0 +1,15 @@
+{
+  "name": "xd-blog-style",
+  "displayName": "xd-blog-style",
+  "description": "基于 xiaodongq 博客风格写作的 skill",
+  "author": {
+    "name": "xiaodongq",
+    "url": "https://github.com/xiaodongq"
+  },
+  "version": "1.0.0",
+  "homepage": "https://xiaodongq.github.io/",
+  "repository": "https://github.com/xiaodongq/xd-self-market",
+  "license": "MIT",
+  "keywords": ["blog", "writing", "style"],
+  "skills": "./skills/"
+}

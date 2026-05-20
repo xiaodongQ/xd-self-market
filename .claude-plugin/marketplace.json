@@ -1,22 +1,39 @@
 {
   "name": "xd-self-market",
-  "description": "个人 AI 工具集归档仓库 — skills 和工具集合",
-  "owner": { "name": "xiaodongq" },
+  "owner": {
+    "name": "xiaodongq"
+  },
+  "metadata": {
+    "description": "个人 AI 工具集归档仓库"
+  },
   "plugins": [
     {
       "name": "xd-blog-style",
       "description": "基于 xiaodongq 博客风格写作的 skill",
-      "source": "./skills/xd-blog-style"
+      "source": "./plugins/xd-blog-style",
+      "version": "1.0.0",
+      "author": { "name": "xiaodongq" }
     },
     {
       "name": "xd-git-push",
       "description": "提交代码到远程仓库前与用户二次确认",
-      "source": "./skills/xd-git-push"
+      "source": "./plugins/xd-git-push",
+      "version": "1.0.0",
+      "author": { "name": "xiaodongq" }
     },
     {
       "name": "prompt-optimizer",
       "description": "通用提示词优化器，生成 A/B/C/D 四种策略变体",
-      "source": "./skills/prompt-optimizer"
+      "source": "./plugins/prompt-optimizer",
+      "version": "1.0.0",
+      "author": { "name": "xiaodongq" }
+    },
+    {
+      "name": "example",
+      "description": "示例插件，包含所有组件类型的参考实现，供 AI 添加新插件时参考",
+      "source": "./plugins/example",
+      "version": "1.0.0",
+      "author": { "name": "xiaodongq" }
     }
   ]
 }

@@ -2,21 +2,9 @@
 
 个人 AI 工具集归档仓库，支持 Claude Code marketplace 加载。
 
-## 结构
+## 安装
 
-```
-xd-self-market/
-├── .claude-plugin/
-│   └── marketplace.json      # marketplace 清单
-├── skills/                   # skills 源文件
-│   ├── xd-blog-style/
-│   └── xd-git-push/
-└── docs/                     # 设计文档
-```
-
-## 使用方式
-
-在 `settings.json` 中添加：
+在 Claude Code `settings.json` 中添加：
 
 ```json
 "extraKnownMarketplaces": {
@@ -29,9 +17,15 @@ xd-self-market/
 }
 ```
 
-## Skills
+## 插件列表
 
-| Skill | 描述 |
-|-------|------|
-| `xd-git-push` | 提交代码前二次确认 |
-| `xd-blog-style` | 基于博客风格写作 |
+| 插件 | 描述 |
+|------|------|
+| `xd-blog-style` | 基于 xiaodongq 博客风格写作 |
+| `xd-git-push` | 提交代码前与用户二次确认 |
+| `prompt-optimizer` | 通用提示词优化器 |
+| `example` | 示例插件（参考规范） |
+
+## 开发
+
+新增插件参考 `docs/plugin-guide.md`。

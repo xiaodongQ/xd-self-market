@@ -1,0 +1,15 @@
+{
+  "name": "prompt-optimizer",
+  "displayName": "prompt-optimizer",
+  "description": "通用提示词优化器，生成 A/B/C/D 四种策略变体",
+  "author": {
+    "name": "xiaodongq",
+    "url": "https://github.com/xiaodongq"
+  },
+  "version": "1.0.0",
+  "homepage": "https://xiaodongq.github.io/",
+  "repository": "https://github.com/xiaodongq/xd-self-market",
+  "license": "MIT",
+  "keywords": ["prompt", "optimization", "ai"],
+  "skills": "./skills/"
+}

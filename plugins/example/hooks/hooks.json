@@ -1,0 +1,24 @@
+{
+  "hooks": [
+    {
+      "name": "example-pre-commit",
+      "description": "示例 hook：在 git commit 前执行检查",
+      "events": ["PreCommit"],
+      "matcher": ".*",
+      "action": {
+        "type": "command",
+        "command": "echo 'Pre-commit hook triggered for: ${CLAUDE_PLUGIN_ROOT}'"
+      }
+    },
+    {
+      "name": "example-tool-use",
+      "description": "示例 hook：在使用 Write 或 Edit 工具后记录日志",
+      "events": ["PostToolUse"],
+      "matcher": "Write|Edit",
+      "action": {
+        "type": "command",
+        "command": "echo 'File modified: ${target}'"
+      }
+    }
+  ]
+}

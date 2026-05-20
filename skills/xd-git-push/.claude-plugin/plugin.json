@@ -1,6 +1,0 @@
-{
-  "name": "xd-git-push",
-  "description": "提交代码到远程仓库前与用户二次确认",
-  "author": { "name": "xiaodongq" },
-  "version": "1.0.0"
-}
